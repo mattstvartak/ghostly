@@ -1,0 +1,13 @@
+[remap]
+
+importer="spine.json"
+type="SpineSkeletonFileResource"
+path="res://.import/index.manifest.json-7af385f5a6cca4c48af3ed98374996fa.spjson"
+
+[deps]
+
+source_file="res://GhostlyHTML/index.manifest.json"
+dest_files=[ "res://.import/index.manifest.json-7af385f5a6cca4c48af3ed98374996fa.spjson" ]
+
+[params]
+
