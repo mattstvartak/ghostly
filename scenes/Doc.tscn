@@ -1,6 +1,32 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://scripts/CharacterController.gd" type="Script" id=1]
+[ext_resource path="res://assets/spine/doc.skel" type="SpineSkeletonFileResource" id=2]
+[ext_resource path="res://assets/spine/doc.atlas" type="SpineAtlasResource" id=3]
 
-[node name="Doc" type="Node2D"]
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 64, 145 )
+
+[sub_resource type="SpineAnimationMix" id=3]
+from = "fall"
+to = "fall"
+
+[sub_resource type="SpineSkeletonDataResource" id=1]
+atlas_res = ExtResource( 3 )
+skeleton_file_res = ExtResource( 2 )
+default_mix = 0.15
+animation_mixes = [ SubResource( 3 ) ]
+
+[node name="Doc" type="KinematicBody2D"]
 script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 9, -148 )
+shape = SubResource( 2 )
+
+[node name="Sprite" type="SpineSprite" parent="."]
+skeleton_data_res = SubResource( 1 )
+preview_skin = "Default"
+preview_animation = "-- Empty --"
+preview_frame = false
+preview_time = 0.0

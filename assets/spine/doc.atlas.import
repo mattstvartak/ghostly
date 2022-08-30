@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+path="res://.import/doc.atlas-54947cd871e5b21a10575811df751896.spatlas"
+
+[deps]
+
+source_file="res://assets/spine/doc.atlas"
+dest_files=[ "res://.import/doc.atlas-54947cd871e5b21a10575811df751896.spatlas" ]
+
+[params]
+
+normal_map_prefix="n"

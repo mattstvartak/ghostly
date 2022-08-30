@@ -1,0 +1,59 @@
+{ "skeleton": { "images": "D:/Game Development/Godot Projects/ghostly/assets/images/ghostly/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "arm-left", "parent": "root", "x": 2156.5, "y": -1543 },
+	{ "name": "body", "parent": "root", "x": 1905, "y": -1271.5 },
+	{ "name": "face", "parent": "root", "x": 2129.5, "y": -1360 },
+	{ "name": "eyes", "parent": "face", "x": -2, "y": 113 },
+	{ "name": "pupils", "parent": "eyes", "x": -74.5, "y": -1.5 },
+	{ "name": "arm-right", "parent": "root", "x": 1993.5, "y": -1583 }
+],
+"slots": [
+	{ "name": "hand-left", "bone": "arm-left", "attachment": "hand-left" },
+	{ "name": "arm-left", "bone": "arm-left", "attachment": "arm-left" },
+	{ "name": "body", "bone": "body", "attachment": "body" },
+	{ "name": "mouth", "bone": "face", "attachment": "mouth-smile" },
+	{ "name": "eye-back", "bone": "eyes", "attachment": "eye-back" },
+	{ "name": "pupil-left", "bone": "pupils", "attachment": "pupil-left" },
+	{ "name": "pupil-right", "bone": "pupils", "attachment": "pupil-right" },
+	{ "name": "eyes", "bone": "eyes", "attachment": "eyes" },
+	{ "name": "hand-right", "bone": "arm-right", "attachment": "hand-right" },
+	{ "name": "arm-right", "bone": "arm-right", "attachment": "arm-right" }
+],
+"skins": {
+	"default": {
+		"hand-left": {
+			"hand-left": { "x": 4.5, "y": -159, "width": 152, "height": 150 }
+		},
+		"arm-left": {
+			"arm-left": { "x": 0, "y": 0, "width": 71, "height": 270 }
+		},
+		"body": {
+			"body": { "x": 0, "y": 0, "width": 834, "height": 577 }
+		},
+		"mouth": {
+			"mouth-open": { "x": 0, "y": 0, "width": 99, "height": 92 },
+			"mouth-smile": { "x": -4.5, "y": 4, "width": 72, "height": 74 }
+		},
+		"eye-back": {
+			"eye-back": { "x": 0.5, "y": 2.5, "width": 262, "height": 131 }
+		},
+		"pupil-left": {
+			"pupil-left": { "x": 188, "y": 9, "width": 72, "height": 157 }
+		},
+		"pupil-right": {
+			"pupil-right": { "x": 0, "y": 0, "width": 72, "height": 157 }
+		},
+		"eyes": {
+			"eyes": { "x": 0, "y": 0, "width": 295, "height": 222 }
+		},
+		"hand-right": {
+			"hand-right": { "x": -1.5, "y": -153, "width": 152, "height": 144 }
+		},
+		"arm-right": {
+			"arm-right": { "x": 0, "y": 0, "width": 71, "height": 270 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

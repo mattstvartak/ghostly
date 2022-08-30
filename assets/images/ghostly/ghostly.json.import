@@ -1,0 +1,13 @@
+[remap]
+
+importer="spine.json"
+type="SpineSkeletonFileResource"
+path="res://.import/ghostly.json-bf069114ec4c65787e5bdcb12d9ba74c.spjson"
+
+[deps]
+
+source_file="res://assets/images/ghostly/ghostly.json"
+dest_files=[ "res://.import/ghostly.json-bf069114ec4c65787e5bdcb12d9ba74c.spjson" ]
+
+[params]
+
