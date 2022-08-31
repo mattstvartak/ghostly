@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+path="res://.import/ghostly.atlas-6c92602ba6569aaf430e54a2f3d08472.spatlas"
+
+[deps]
+
+source_file="res://assets/spine/ghostly.atlas"
+dest_files=[ "res://.import/ghostly.atlas-6c92602ba6569aaf430e54a2f3d08472.spatlas" ]
+
+[params]
+
+normal_map_prefix="n"
